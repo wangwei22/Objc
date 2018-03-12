@@ -16,6 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"1");
+    dispatch_async(dispatch_get_main_queue(), ^{
+        NSLog(@"2");
+    });
+    NSLog(@"3");
+    __block    int t =1;
+    void (^foo)(void)=^{
+        int  a;
+        t++;
+        a= t;
+        NSLog(@"=%d",a);
+    };
+    foo();
     // Do any additional setup after loading the view, typically from a nib.
 }
 
