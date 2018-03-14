@@ -17,6 +17,9 @@
 		BD2F12B8205614AA00FA5C39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2F12B7205614AA00FA5C39 /* main.m */; };
 		BD2F12C2205614AA00FA5C39 /* ObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2F12C1205614AA00FA5C39 /* ObjcTests.m */; };
 		BD2F12CD205614AA00FA5C39 /* ObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2F12CC205614AA00FA5C39 /* ObjcUITests.m */; };
+		BD31E1472058EACC0031DF36 /* NSObject+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BD31E1462058EACC0031DF36 /* NSObject+custom.m */; };
+		BD31E14E2058F3ED0031DF36 /* OriginalObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BD31E14D2058F3ED0031DF36 /* OriginalObject.m */; };
+		BD31E151205902B90031DF36 /* UIButton+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BD31E150205902B90031DF36 /* UIButton+Custom.m */; };
 		BE126F3852E39447764FDC57 /* libPods-ObjcTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A12803CA7F9BD429D3A8EC2 /* libPods-ObjcTests.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +63,12 @@
 		BD2F12C8205614AA00FA5C39 /* ObjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2F12CC205614AA00FA5C39 /* ObjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcUITests.m; sourceTree = "<group>"; };
 		BD2F12CE205614AA00FA5C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD31E1452058EACC0031DF36 /* NSObject+custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+custom.h"; sourceTree = "<group>"; };
+		BD31E1462058EACC0031DF36 /* NSObject+custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+custom.m"; sourceTree = "<group>"; };
+		BD31E14C2058F3ED0031DF36 /* OriginalObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OriginalObject.h; sourceTree = "<group>"; };
+		BD31E14D2058F3ED0031DF36 /* OriginalObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginalObject.m; sourceTree = "<group>"; };
+		BD31E14F205902B90031DF36 /* UIButton+Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Custom.h"; sourceTree = "<group>"; };
+		BD31E150205902B90031DF36 /* UIButton+Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Custom.m"; sourceTree = "<group>"; };
 		F00D9DE1C8B20F4263D67D3B /* Pods-ObjcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcTests/Pods-ObjcTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F3E95AA91364B0B9B0516AD2 /* Pods-Objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Objc/Pods-Objc.debug.xcconfig"; sourceTree = "<group>"; };
 		F502E4CBA74808A5799CDD07 /* Pods-ObjcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcTests/Pods-ObjcTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +141,12 @@
 				BD2F12A9205614A900FA5C39 /* AppDelegate.m */,
 				BD2F12AB205614A900FA5C39 /* ViewController.h */,
 				BD2F12AC205614AA00FA5C39 /* ViewController.m */,
+				BD31E1452058EACC0031DF36 /* NSObject+custom.h */,
+				BD31E1462058EACC0031DF36 /* NSObject+custom.m */,
+				BD31E14C2058F3ED0031DF36 /* OriginalObject.h */,
+				BD31E14D2058F3ED0031DF36 /* OriginalObject.m */,
+				BD31E14F205902B90031DF36 /* UIButton+Custom.h */,
+				BD31E150205902B90031DF36 /* UIButton+Custom.m */,
 				BD2F12AE205614AA00FA5C39 /* Main.storyboard */,
 				BD2F12B1205614AA00FA5C39 /* Assets.xcassets */,
 				BD2F12B3205614AA00FA5C39 /* LaunchScreen.storyboard */,
@@ -463,6 +478,9 @@
 			files = (
 				BD2F12AD205614AA00FA5C39 /* ViewController.m in Sources */,
 				BD2F12B8205614AA00FA5C39 /* main.m in Sources */,
+				BD31E151205902B90031DF36 /* UIButton+Custom.m in Sources */,
+				BD31E14E2058F3ED0031DF36 /* OriginalObject.m in Sources */,
+				BD31E1472058EACC0031DF36 /* NSObject+custom.m in Sources */,
 				BD2F12AA205614A900FA5C39 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
