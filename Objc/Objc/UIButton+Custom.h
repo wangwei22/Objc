@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef void (^btnBlock)();
 @interface UIButton (Custom)
 @property(nonatomic,copy)NSString  * name;
+- (void)handelWithBlock:(btnBlock)block;
 @end

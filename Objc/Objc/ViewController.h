@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@protocol  ViewControllerDelegate <NSObject>
+@optional
+-(void)name;
+-(void)pushViewController;
+@end
 @interface ViewController : UIViewController
-
+@property(nonatomic,assign)id<ViewControllerDelegate>delegate;
 
 @end
 
